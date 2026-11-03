@@ -69,9 +69,9 @@ window.WEDDING_CONFIG = {
     { name: "Vinayak / Kalash Chak Pujan", date: "2026-12-03", day: "Thursday", time: "Morning, 9:00 AM",          location: "Treehouse Rajbagh, Jodhpur", motif: "kalash",  image: "assets/images/fn-vinayak.webp" },
     { name: "Haldi",                      date: "2026-12-03", day: "Thursday", time: "Morning, 9:00 AM",          location: "Treehouse Rajbagh, Jodhpur", motif: "haldi",   image: "assets/images/fn-haldi.webp" },
     { name: "Mayra",                      date: "2026-12-03", day: "Thursday", time: "Afternoon, 2:00 PM",        location: "Treehouse Rajbagh, Jodhpur", motif: "mayra",   image: "assets/images/fn-mayra.webp" },
-    { name: "Barat Swagat",               date: "2026-12-04", day: "Friday",   time: "Morning, 11:00 AM",         location: "",                    motif: "toran",   image: "assets/images/fn-barat.webp" },
-    { name: "Hast Milap",                 date: "2026-12-04", day: "Friday",   time: "Afternoon, 12:15 PM",       location: "",                    motif: "agni",    image: "assets/images/fn-hastmilap.webp" },
-    { name: "Preeti Bhoj (Reception)",    date: "2026-12-04", day: "Friday",   time: "Evening, 7:00 PM onwards",  location: "",                    motif: "lantern", image: "assets/images/fn-reception.webp", framed: true }
+    { name: "Barat Swagat",               date: "2026-12-04", day: "Friday",   time: "Morning, 11:00 AM",         location: "Treehouse Rajbagh, Jodhpur", motif: "toran",   image: "assets/images/fn-barat.webp" },
+    { name: "Hast Milap",                 date: "2026-12-04", day: "Friday",   time: "Afternoon, 12:15 PM",       location: "Treehouse Rajbagh, Jodhpur", motif: "agni",    image: "assets/images/fn-hastmilap.webp" },
+    { name: "Preeti Bhoj (Reception)",    date: "2026-12-04", day: "Friday",   time: "Evening, 7:00 PM onwards",  location: "Treehouse Rajbagh, Jodhpur", motif: "lantern", image: "assets/images/fn-reception.webp", framed: true }
   ],
 
   /* ---------------- Venue ----------------
