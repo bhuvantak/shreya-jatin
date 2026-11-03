@@ -54,7 +54,7 @@ window.WEDDING_CONFIG = {
   /* Background music — starts only after the guest taps to open the invitation.
      Replace the file (keep the name) or change the path. Leave "" for no music. */
   media: {
-    music: "assets/audio/wedding-music.mp3"
+    music: "assets/audio/song.mp4"
   },
 
   /* ---------------- Functions ----------------
