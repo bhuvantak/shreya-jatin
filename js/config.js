@@ -78,8 +78,8 @@ window.WEDDING_CONFIG = {
      Fill these in when the details are final.
      mapsUrl: open Google Maps, find the place, tap Share → Copy link, paste here. */
   venue: {
-    name: "",
-    address: "",
+    name: "Treehouse Rajbagh",
+    address: "Dali Bai Circle, Near Jhanwar Rd, Bhadu Market,\nJaisalmer, Jodhpur, Rajasthan 342014",
     mapsUrl: "",
     note: ""          /* optional line, e.g. "Parking available at the main gate" */
   }
