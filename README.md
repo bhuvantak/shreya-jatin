@@ -36,7 +36,7 @@ A few names also appear as plain text in `index.html` (the page title, the socia
 ### Functions
 Each function is one line:
 ```js
-{ name: "Haldi", date: "2026-12-03", day: "Thursday", time: "Morning, 9:00 AM", location: "Temporary Residence", motif: "haldi" }
+{ name: "Haldi", date: "2026-12-03", day: "Thursday", time: "Morning, 9:00 AM", location: "Treehouse Rajbagh, Jodhpur", motif: "haldi" }
 ```
 - `date` uses the format `YYYY-MM-DD`. Functions that share a date are grouped under the same day automatically.
 - `day` is shown on the card. If it doesn't match the calendar, the browser console shows a warning.
@@ -46,7 +46,7 @@ Each function is one line:
 Note: Vinayak / Kalash Chak Pujan and Haldi are both set to 9:00 AM on 3 December, exactly as supplied. If one of those times is wrong, change it in `config.js`.
 
 ### Venue
-Until you fill it in, the venue section says the address will be shared soon. It also lists where the earlier ceremonies happen (Residence, Temporary Residence), taken from the functions list.
+Until you fill it in, the venue section says the address will be shared soon. It also lists where the earlier ceremonies happen (Residence, Treehouse Rajbagh, Jodhpur), taken from the functions list.
 1. Set `venue.name` and `venue.address`. Use `\n` for a line break in the address.
 2. For an exact map pin, open Google Maps, find the venue, tap **Share → Copy link**, and paste the link into `venue.mapsUrl`.
    If you leave `mapsUrl` empty but fill in the address, the directions button searches Google Maps for the address instead.
