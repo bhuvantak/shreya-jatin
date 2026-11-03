@@ -62,13 +62,14 @@ window.WEDDING_CONFIG = {
      image: illustration for the card (square, transparent PNG/WebP works best).
      framed: true shows the image as a framed picture (for images that are not cut-outs).
      motif: line drawing used if image is "" — one of
-       thali, ghee, kalash, haldi, mayra, toran, agni, lantern            */
+       thali, ghee, kalash, haldi, mayra, dholak, toran, agni, lantern            */
   functions: [
     { name: "Sava",                       date: "2026-11-30", day: "Monday",   time: "Morning, 9:00 AM",          location: "Residence",           motif: "thali",   image: "assets/images/fn-sava.webp" },
     { name: "Ghrtpan",                    date: "2026-12-01", day: "Tuesday",  time: "Morning, 11:00 AM",         location: "Residence",           motif: "ghee",    image: "assets/images/fn-ghrtpan.webp" },
     { name: "Vinayak / Kalash Chak Pujan", date: "2026-12-03", day: "Thursday", time: "Morning, 9:00 AM",          location: "Treehouse Rajbagh, Jodhpur", motif: "kalash",  image: "assets/images/fn-vinayak.webp" },
     { name: "Haldi",                      date: "2026-12-03", day: "Thursday", time: "Morning, 9:00 AM",          location: "Treehouse Rajbagh, Jodhpur", motif: "haldi",   image: "assets/images/fn-haldi.webp" },
     { name: "Mayra",                      date: "2026-12-03", day: "Thursday", time: "Afternoon, 2:00 PM",        location: "Treehouse Rajbagh, Jodhpur", motif: "mayra",   image: "assets/images/fn-mayra.webp" },
+    { name: "Sangeet", date: "2026-12-03", day: "Thursday", time: "Evening, 7:00 PM", location: "Treehouse Rajbagh, Jodhpur", motif: "dholak", image: "assets/images/fn-sangeet.webp" },
     { name: "Barat Swagat",               date: "2026-12-04", day: "Friday",   time: "Morning, 11:00 AM",         location: "Treehouse Rajbagh, Jodhpur", motif: "toran",   image: "assets/images/fn-barat.webp" },
     { name: "Hast Milap",                 date: "2026-12-04", day: "Friday",   time: "Afternoon, 12:15 PM",       location: "Treehouse Rajbagh, Jodhpur", motif: "agni",    image: "assets/images/fn-hastmilap.webp" },
     { name: "Preeti Bhoj (Reception)",    date: "2026-12-04", day: "Friday",   time: "Evening, 7:00 PM onwards",  location: "Treehouse Rajbagh, Jodhpur", motif: "lantern", image: "assets/images/fn-reception.webp", framed: true }

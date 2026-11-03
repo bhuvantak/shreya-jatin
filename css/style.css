@@ -689,6 +689,16 @@ section { position: relative; padding: clamp(4.5rem, 12vw, 8rem) var(--gutter); 
   .fn-card__meta { gap: .65rem; }
 }
 
+/* line-drawn placeholder used until a function has its own illustration */
+.fn-card__img--line {
+  position: static; right: auto; top: auto; margin: .2rem 0 .1rem;
+  width: min(42%, 130px); height: auto; aspect-ratio: 1;
+  color: var(--gold); stroke-width: 1.3; filter: none;
+  stroke-dasharray: none; stroke-dashoffset: 0;
+}
+.day--3 .fn-card .fn-card__img--line { color: var(--maroon); opacity: .8; }
+.day--4 .fn-card .fn-card__img--line { color: var(--gold-soft); filter: none; }
+
 /* save-the-date corners */
 .scratch__corner { display: none; }
 .has-corner-img .scratch__corner {

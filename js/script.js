@@ -516,12 +516,15 @@
           pic.className = "fn-card__img" + (f.framed ? " fn-card__img--framed" : "");
           pic.loading = "lazy";
           pic.decoding = "async";
-          pic.onerror = (function (p, m, c) { return function () { p.replaceWith(m); c.classList.remove("has-img"); }; })(pic, motif, card);
+          pic.onerror = (function (p, m) { return function () { m.classList.add("fn-card__img", "fn-card__img--line"); p.replaceWith(m); }; })(pic, motif);
           pic.src = f.image;
           card.classList.add("has-img");
           if (f.framed) card.classList.add("has-framed");
           card.appendChild(pic);
         } else {
+          // no illustration yet: the line drawing takes the image's place in the layout
+          motif.classList.add("fn-card__img", "fn-card__img--line");
+          card.classList.add("has-img");
           card.appendChild(motif);
         }
 
