@@ -416,6 +416,8 @@ section { position: relative; padding: clamp(4.5rem, 12vw, 8rem) var(--gutter); 
 .day--3 .fn-card { background: linear-gradient(160deg, #FBE7AE, var(--haldi)); }
 .day--3 .fn-card:nth-child(1) { background: linear-gradient(160deg, #FFF5DA, #F7E2B0); }
 .day--3 .fn-card:nth-child(3) { background: linear-gradient(160deg, #F7DCA0, #EEC77A); }
+.day--5 .fn-card { background: linear-gradient(160deg, #F4F1DC, #E2E5C3); }
+.day--5 .fn-card .fn-card__img--line { color: #5E6B2E; }
 .day--4 .fn-card { background: var(--maroon); color: var(--ivory); }
 .day--4 .fn-card:nth-child(2) { background: var(--wine); }
 .day--4 .fn-card:nth-child(3) { background: var(--maroon-deep); }

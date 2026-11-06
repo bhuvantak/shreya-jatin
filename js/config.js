@@ -62,10 +62,11 @@ window.WEDDING_CONFIG = {
      image: illustration for the card (square, transparent PNG/WebP works best).
      framed: true shows the image as a framed picture (for images that are not cut-outs).
      motif: line drawing used if image is "" — one of
-       thali, ghee, kalash, haldi, mayra, dholak, toran, agni, lantern            */
+       thali, ghee, mehendi, kalash, haldi, mayra, dholak, toran, agni, lantern            */
   functions: [
     { name: "Sava",                       date: "2026-11-30", day: "Monday",   time: "Morning, 9:00 AM",          location: "Residence",           motif: "thali",   image: "assets/images/fn-sava.webp" },
     { name: "Ghritpan",                   date: "2026-12-01", day: "Tuesday",  time: "Morning, 11:00 AM",         location: "Residence",           motif: "ghee",    image: "assets/images/fn-ghrtpan.webp" },
+    { name: "Mehendi", date: "2026-12-02", day: "Wednesday", time: "Morning, 11:00 AM", location: "Residence", motif: "mehendi", image: "assets/images/fn-mehendi.webp" },
     { name: "Vinayak / Kalash Chak Pujan", date: "2026-12-03", day: "Thursday", time: "Morning, 9:00 AM",          location: "Treehouse Rajbagh, Jodhpur", motif: "kalash",  image: "assets/images/fn-vinayak.webp" },
     { name: "Haldi",                      date: "2026-12-03", day: "Thursday", time: "Morning, 9:00 AM",          location: "Treehouse Rajbagh, Jodhpur", motif: "haldi",   image: "assets/images/fn-haldi.webp" },
     { name: "Mayra",                      date: "2026-12-03", day: "Thursday", time: "Afternoon, 2:00 PM",        location: "Treehouse Rajbagh, Jodhpur", motif: "mayra",   image: "assets/images/fn-mayra.webp" },

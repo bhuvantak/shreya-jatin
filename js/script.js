@@ -480,7 +480,10 @@
 
     groups.forEach(function (g, gi) {
       var d = parseDay(g.date);
-      var day = el("article", "day day--" + Math.min(gi + 1, 4));
+      // colours follow the days: the wedding day is maroon (4), the day before is haldi gold (3),
+      // and earlier days take ivory (1), champagne (2) and henna green (5) in turn
+      var theme = gi === groups.length - 1 ? 4 : gi === groups.length - 2 ? 3 : [1, 2, 5][gi % 3];
+      var day = el("article", "day day--" + theme);
       day.setAttribute("aria-label", fullDate(d));
 
       var head = el("header", "day__head");
